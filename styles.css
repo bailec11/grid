@@ -26,6 +26,8 @@ body {
     height: 768px;
     border: 1px dashed gray;
     margin: 24px auto;
+    display: grid; 
+    grid-gap: 1px;
     grid-template:repeat(3,auto)/repeat(2,auto) ;
 } .thumbnail-container {
     text-align: left;
